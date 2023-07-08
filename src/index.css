@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+header {
+  display: flex;
+  gap: 25%;
+  background-color: #222;
+  color: #ccc;
+}
+
+.header-back {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.header-back-link {
+  color: green;
+  text-decoration: none;
+}
+
+.header-text {
+  margin: 1rem;
+}
+
+.countries-container-inside {
+  background-color: #222;
+  color: #ccc;
+}
+
+.country-detail {
+  color: green;
+  text-decoration: none;
+}
+
+.home-img-div {
+  display: block;
+  width: 100%;
+}
+
+.home-img-div img {
+  width: 100%;
+  height: 80vh;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.countries-list img {
+  display: flex;
+  width: 100%;
+  border-radius: 5rem;
+}
+
+.each-country-card {
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+  border: 1px solid red;
+  margin-bottom: 10%;
+  padding: 1rem;
+}
+
+.search-bycountry-div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.search-bycountry {
+  width: 75%;
+}
+
+.select-region-div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.select-region-txt {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.select-region-options {
+  height: 2rem;
+}
+
+.total-population-div {
+  display: flex;
+  justify-content: center;
+}
+
+.country-stat-txt {
+  display: flex;
+  justify-content: center;
+}
+
+.country-detail-img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.county-info-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.div-capital {
+  background-color: #444;
+  color: #ccc;
+}
+
+.div-demonym {
+  background-color: #666;
+  color: #ccc;
+}
+
+.div-area {
+  background-color: #444;
+  color: #ccc;
+}
+
+.div-timezones {
+  background-color: #666;
+  color: #ccc;
+}
+
+.div-language {
+  background-color: #444;
+  color: #ccc;
+}
+
+.div-currency {
+  background-color: #666;
+  color: #ccc;
+}
+
+.div-map {
+  background-color: #444;
+  color: #ccc;
+}
